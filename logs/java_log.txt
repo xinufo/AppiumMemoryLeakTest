@@ -1,0 +1,93 @@
+switched to WEBVIEW_a.b.hybirddemo
+file:///android_asset/view/ptjy/wtxd/ptmr.html
+current loop: 275
+
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MyPC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: driver.version: AppiumDriver
+Capabilities [{app=D:/Java/MemoryLeakTest/target/classes/aut.apk, appPackage=a.b.hybirddemo, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=a.b.hybirddemo, appWaitActivity=a.b.hybirddemo.MainActivity, databaseEnabled=false, deviceName=127.0.0.1:62001, platform=LINUX, deviceUDID=127.0.0.1:62001, appActivity=a.b.hybirddemo.MainActivity, desired={app=D:/Java/MemoryLeakTest/target/classes/aut.apk, noReset=true, newCommandTimeout=3600, platformName=Android, deviceName=justsoso}, newCommandTimeout=3600, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 492f3d0d-50fd-40ed-a1a0-8e00eba41090
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:977)
+	at MemoryLeakTest.App.main(App.java:39)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MyPC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: driver.version: AppiumDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 4 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 5 more
+Exception in thread "main" org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MyPC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{app=D:/Java/MemoryLeakTest/target/classes/aut.apk, appPackage=a.b.hybirddemo, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=a.b.hybirddemo, appWaitActivity=a.b.hybirddemo.MainActivity, databaseEnabled=false, deviceName=127.0.0.1:62001, platform=LINUX, deviceUDID=127.0.0.1:62001, appActivity=a.b.hybirddemo.MainActivity, desired={app=D:/Java/MemoryLeakTest/target/classes/aut.apk, noReset=true, newCommandTimeout=3600, platformName=Android, deviceName=justsoso}, newCommandTimeout=3600, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 492f3d0d-50fd-40ed-a1a0-8e00eba41090
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
+	at MemoryLeakTest.App.main(App.java:48)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MyPC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:84)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 4 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	... 5 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 18 more
