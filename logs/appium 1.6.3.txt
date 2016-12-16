@@ -1,0 +1,225 @@
+2016-12-16 00:59:23:644 - info: [Appium] Welcome to Appium v1.6.3
+2016-12-16 00:59:23:650 - info: [Appium] Non-default server args:
+2016-12-16 00:59:23:653 - info: [Appium]   log: 'd:\\1.txt'
+2016-12-16 00:59:23:654 - info: [Appium]   loglevel: 'debug:info'
+2016-12-16 00:59:23:654 - info: [Appium]   logNoColors: true
+2016-12-16 00:59:23:734 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2016-12-16 01:01:48:268 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:/Java/MemoryLeakTest/target/classes/aut.apk","noReset":true,"platformName":"Android","deviceName":"justsoso","newCommandTimeout":3600}}
+2016-12-16 01:01:48:276 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"D:/Java/MemoryLeakTest/target/classes/aut.apk","noReset":true,"platformName":"Android","deviceName":"justsoso","newCommandTimeout":3600},null,null,null,null]
+2016-12-16 01:01:48:284 - info: [Appium] Creating new AndroidDriver session
+2016-12-16 01:01:48:286 - info: [Appium] Capabilities:
+2016-12-16 01:01:48:311 - info: [Appium]   app: 'D:/Java/MemoryLeakTest/target/classes/aut.apk'
+2016-12-16 01:01:48:311 - info: [Appium]   noReset: true
+2016-12-16 01:01:48:312 - info: [Appium]   platformName: 'Android'
+2016-12-16 01:01:48:313 - info: [Appium]   deviceName: 'justsoso'
+2016-12-16 01:01:48:313 - info: [Appium]   newCommandTimeout: 3600
+2016-12-16 01:01:48:317 - info: [debug] [AndroidDriver] AndroidDriver version: 1.10.38
+2016-12-16 01:01:48:328 - info: [BaseDriver] Session created with session id: 0f4982ab-9e39-496b-a64c-c51557790491
+2016-12-16 01:01:48:331 - info: [debug] [AndroidDriver] Getting Java version
+2016-12-16 01:01:48:610 - info: [AndroidDriver] Java version is: 1.8.0_66
+2016-12-16 01:01:48:614 - info: [ADB] Checking whether adb is present
+2016-12-16 01:01:48:662 - info: [ADB] Using adb.exe from D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe
+2016-12-16 01:01:48:663 - info: [AndroidDriver] Retrieving device list
+2016-12-16 01:01:48:665 - info: [debug] [ADB] Trying to find a connected android device
+2016-12-16 01:01:48:667 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:48:767 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:48:769 - info: [AndroidDriver] Using device: 127.0.0.1:62001
+2016-12-16 01:01:48:772 - info: [ADB] Checking whether adb is present
+2016-12-16 01:01:48:778 - info: [ADB] Using adb.exe from D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe
+2016-12-16 01:01:48:779 - info: [debug] [ADB] Setting device id to 127.0.0.1:62001
+2016-12-16 01:01:48:783 - info: [BaseDriver] Using local app 'D:/Java/MemoryLeakTest/target/classes/aut.apk'
+2016-12-16 01:01:48:784 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2016-12-16 01:01:48:787 - info: [AndroidDriver] Starting Android session
+2016-12-16 01:01:48:794 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","wait-for-device"]
+2016-12-16 01:01:48:838 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:48:876 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:48:878 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","echo","ping"]
+2016-12-16 01:01:48:925 - info: [debug] [Logcat] Starting logcat capture
+2016-12-16 01:01:48:981 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2016-12-16 01:01:48:988 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","install","D:\\Softwares\\NodeJs\\node_global\\node_modules\\appium\\node_modules\\io.appium.settings\\bin\\settings_apk-debug.apk"]
+2016-12-16 01:01:50:422 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2016-12-16 01:01:50:423 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","install","D:\\Softwares\\NodeJs\\node_global\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2016-12-16 01:01:51:641 - info: [ADB] Getting device platform version
+2016-12-16 01:01:51:643 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:51:682 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:51:683 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","ro.build.version.release"]
+2016-12-16 01:01:51:730 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:51:767 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:51:768 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","window"]
+2016-12-16 01:01:51:834 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2016-12-16 01:01:51:837 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2016-12-16 01:01:51:839 - info: [ADB] Checking whether aapt is present
+2016-12-16 01:01:51:847 - info: [ADB] Using aapt.exe from D:\Softwares\Android\AndroidSDK\build-tools\24.0.2\aapt.exe
+2016-12-16 01:01:51:848 - info: [ADB] Extracting package and launch activity from manifest
+2016-12-16 01:01:52:033 - info: [debug] [ADB] badging package: a.b.hybirddemo
+2016-12-16 01:01:52:035 - info: [debug] [ADB] badging act: a.b.hybirddemo.MainActivity
+2016-12-16 01:01:52:036 - info: [debug] [AndroidDriver] Parsed package and activity are: a.b.hybirddemo/a.b.hybirddemo.MainActivity
+2016-12-16 01:01:52:061 - info: [AndroidDriver] Remote apk path is /data/local/tmp/aa6b67d56f6f5d052e69f2dd60c659c1.apk
+2016-12-16 01:01:52:063 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:52:099 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:52:100 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ls","/data/local/tmp/aa6b67d56f6f5d052e69f2dd60c659c1.apk"]
+2016-12-16 01:01:52:142 - info: [debug] [AndroidDriver] Checking if app is installed
+2016-12-16 01:01:52:144 - info: [debug] [ADB] Getting install status for a.b.hybirddemo
+2016-12-16 01:01:52:146 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:52:184 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:52:185 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","ro.build.version.sdk"]
+2016-12-16 01:01:52:231 - info: [debug] [ADB] Device API level: 19
+2016-12-16 01:01:52:233 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:52:271 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:52:273 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","-3","a.b.hybirddemo"]
+2016-12-16 01:01:53:411 - info: [debug] [ADB] App is  installed
+2016-12-16 01:01:53:414 - info: [debug] [AndroidDriver] Extracting strings from apk D:/Java/MemoryLeakTest/target/classes/aut.apk null C:\Users\ADMINI~1\AppData\Local\Temp\a.b.hybirddemo
+2016-12-16 01:01:53:416 - info: [debug] [ADB] Extracting strings for language: default
+2016-12-16 01:01:53:417 - info: [debug] [ADB] Device API level: 19
+2016-12-16 01:01:53:419 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:53:452 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:53:454 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","persist.sys.language"]
+2016-12-16 01:01:53:499 - info: [debug] [ADB] Current device property 'persist.sys.language': zh
+2016-12-16 01:01:54:737 - info: [debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
+2016-12-16 01:01:55:562 - info: [debug] [ADB] Reading strings from converted strings.json
+2016-12-16 01:01:55:566 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","push","C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\a.b.hybirddemo\\strings.json","/data/local/tmp"]
+2016-12-16 01:01:55:614 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2016-12-16 01:01:55:619 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2016-12-16 01:01:55:622 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","forward","tcp:4724","tcp:4724"]
+2016-12-16 01:01:55:649 - info: [debug] [UiAutomator] Starting UiAutomator
+2016-12-16 01:01:55:650 - info: [debug] [UiAutomator] Moving to state 'starting'
+2016-12-16 01:01:55:652 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2016-12-16 01:01:55:653 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2016-12-16 01:01:55:655 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","push","D:\\Softwares\\NodeJs\\node_global\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2016-12-16 01:01:55:770 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2016-12-16 01:01:55:772 - info: [debug] [ADB] Getting all processes with uiautomator
+2016-12-16 01:01:55:773 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:55:808 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:55:810 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ps"]
+2016-12-16 01:01:55:860 - info: [ADB] No uiautomator process found to kill, continuing...
+2016-12-16 01:01:55:861 - info: [debug] [UiAutomator] Starting UIAutomator
+2016-12-16 01:01:55:862 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","a.b.hybirddemo","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2016-12-16 01:01:56:874 - info: [debug] [UiAutomator] Moving to state 'online'
+2016-12-16 01:01:56:878 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2016-12-16 01:01:56:879 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2016-12-16 01:01:56:882 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2016-12-16 01:01:56:886 - info: [debug] [ADB] Device API level: 19
+2016-12-16 01:01:56:888 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:01:56:908 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2016-12-16 01:01:56:927 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:01:56:929 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","start","-W","-n","a.b.hybirddemo/a.b.hybirddemo.MainActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2016-12-16 01:02:00:308 - info: [debug] [ADB] Waiting for pkg: 'a.b.hybirddemo' and activity: 'a.b.hybirddemo.MainActivity' to be focused
+2016-12-16 01:02:00:309 - info: [debug] [ADB] Possible activities, to be checked: a.b.hybirddemo.MainActivity, .MainActivity, .a.b.hybirddemo.MainActivity
+2016-12-16 01:02:00:311 - info: [debug] [ADB] Getting focused package and activity
+2016-12-16 01:02:00:312 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:02:00:423 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:02:00:426 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","window","windows"]
+2016-12-16 01:02:00:483 - info: [debug] [ADB] Found package: 'a.b.hybirddemo' and activity: '.MainActivity'
+2016-12-16 01:02:00:487 - info: [Appium] New AndroidDriver session created successfully, session 0f4982ab-9e39-496b-a64c-c51557790491 added to master session list
+2016-12-16 01:02:00:490 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"D:/Java/MemoryLeakTest/target/classes/aut.apk","noReset":true,"platformName":"Android","deviceName":"justsoso","newCommandTimeout":3600},"app":"D:/Java/MemoryLeakTest/target/classes/aut.apk","noReset":true,"platformName":"Android","deviceName":"127.0.0.1:62001","newCommandTimeout":3600,"deviceUDID":"127.0.0.1:62001","platformVersion":"4.4.2","appPackage":"a.b.hybirddemo","appWaitPackage":"a.b.hybirddemo","appActivity":"a.b.hybirddemo.MainActivity","appWaitActivity":"a.b.hybirddemo.MainActivity"}
+2016-12-16 01:02:00:512 - info: [HTTP] <-- POST /wd/hub/session 200 12238 ms - 785 
+2016-12-16 01:02:07:389 - info: [HTTP] --> GET /wd/hub/session/0f4982ab-9e39-496b-a64c-c51557790491/contexts {}
+2016-12-16 01:02:07:397 - info: [debug] [MJSONWP] Calling AppiumDriver.getContexts() with args: ["0f4982ab-9e39-496b-a64c-c51557790491"]
+2016-12-16 01:02:07:400 - info: [debug] [AndroidDriver] Getting a list of available webviews
+2016-12-16 01:02:07:402 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:02:07:513 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:02:07:516 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","cat","/proc/net/unix"]
+2016-12-16 01:02:07:584 - info: [debug] [AndroidDriver] WEBVIEW_2059 mapped to pid 2059
+2016-12-16 01:02:07:586 - info: [debug] [AndroidDriver] Getting process name for webview
+2016-12-16 01:02:07:587 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:02:07:627 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:02:07:630 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ps"]
+2016-12-16 01:02:07:699 - info: [debug] [AndroidDriver] Parsed pid: 2059 pkg: a.b.hybirddemo!
+2016-12-16 01:02:07:700 - info: [debug] [AndroidDriver] from: u0_a89,2059,138,1423616,102572,ffffffff,b4d76da5,R,a.b.hybirddemo
+2016-12-16 01:02:07:701 - info: [debug] [AndroidDriver] returning process name: a.b.hybirddemo
+2016-12-16 01:02:07:703 - info: [debug] [AndroidDriver] Found webviews: ["WEBVIEW_a.b.hybirddemo"]
+2016-12-16 01:02:07:704 - info: [debug] [AndroidDriver] Available contexts: ["NATIVE_APP","WEBVIEW_a.b.hybirddemo"]
+2016-12-16 01:02:07:708 - info: [debug] [MJSONWP] Responding to client with driver.getContexts() result: ["NATIVE_APP","WEBVIEW_a.b.hybirddemo"]
+2016-12-16 01:02:07:714 - info: [HTTP] <-- GET /wd/hub/session/0f4982ab-9e39-496b-a64c-c51557790491/contexts 200 325 ms - 111 
+2016-12-16 01:02:07:758 - info: [HTTP] --> POST /wd/hub/session/0f4982ab-9e39-496b-a64c-c51557790491/context {"name":"WEBVIEW_a.b.hybirddemo"}
+2016-12-16 01:02:07:759 - info: [debug] [MJSONWP] Calling AppiumDriver.setContext() with args: ["WEBVIEW_a.b.hybirddemo","0f4982ab-9e39-496b-a64c-c51557790491"]
+2016-12-16 01:02:07:761 - info: [debug] [AndroidDriver] Getting a list of available webviews
+2016-12-16 01:02:07:762 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:02:07:804 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:02:07:806 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","cat","/proc/net/unix"]
+2016-12-16 01:02:07:862 - info: [debug] [AndroidDriver] WEBVIEW_2059 mapped to pid 2059
+2016-12-16 01:02:07:863 - info: [debug] [AndroidDriver] Getting process name for webview
+2016-12-16 01:02:07:863 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:02:07:913 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:02:07:915 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ps"]
+2016-12-16 01:02:07:969 - info: [debug] [AndroidDriver] Parsed pid: 2059 pkg: a.b.hybirddemo!
+2016-12-16 01:02:07:969 - info: [debug] [AndroidDriver] from: u0_a89,2059,138,1423616,102572,ffffffff,b772704b,S,a.b.hybirddemo
+2016-12-16 01:02:07:970 - info: [debug] [AndroidDriver] returning process name: a.b.hybirddemo
+2016-12-16 01:02:07:971 - info: [debug] [AndroidDriver] Found webviews: ["WEBVIEW_a.b.hybirddemo"]
+2016-12-16 01:02:07:971 - info: [debug] [AndroidDriver] Available contexts: ["NATIVE_APP","WEBVIEW_a.b.hybirddemo"]
+2016-12-16 01:02:07:973 - info: [debug] [AndroidDriver] Connecting to chrome-backed webview context 'WEBVIEW_a.b.hybirddemo'
+2016-12-16 01:02:07:993 - info: [debug] [AndroidDriver] A port was not given, using random port: 8000
+2016-12-16 01:02:07:997 - info: [debug] [Chromedriver] Changed state to 'starting'
+2016-12-16 01:02:08:005 - info: [Chromedriver] Set chromedriver binary as: D:\Softwares\NodeJs\node_global\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe
+2016-12-16 01:02:08:008 - info: [Chromedriver] Killing any old chromedrivers, running: FOR /F "usebackq tokens=5" %a in (`netstat -nao ^| findstr /R /C:"8000 "`) do (FOR /F "usebackq" %b in (`TASKLIST /FI "PID eq %a" ^| findstr /I chromedriver.exe`) do (IF NOT %b=="" TASKKILL /F /PID %a))
+2016-12-16 01:02:08:248 - info: [Chromedriver] No old chromedrivers seemed to exist
+2016-12-16 01:02:08:249 - info: [Chromedriver] Spawning chromedriver with: D:\Softwares\NodeJs\node_global\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe --url-base=wd/hub --port=8000 --adb-port=5037
+2016-12-16 01:02:08:459 - info: [Chromedriver] [STDOUT] Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 8000
+Only local connections are allowed.
+2016-12-16 01:02:08:465 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8000/wd/hub/status] with no body
+2016-12-16 01:02:08:504 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"\",\"status\":0,\"value\":{\"build\":{\"version\":\"alpha\"},\"os\":{\"arch\":\"x86_64\",\"name\":\"Windows NT\",\"version\":\"6.1.7600\"}}}"
+2016-12-16 01:02:08:508 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8000/wd/hub/session] with body: {"desiredCapabilities":{"chromeOptions":{"androidPackage":"a.b.hybirddemo","androidUseRunningApp":true,"androidDeviceSerial":"127.0.0.1:62001"}}}
+2016-12-16 01:02:11:193 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"6c4621afdbfb073854d0d50a935b036d","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"pageLoadStrategy":"normal","platform":"ANDROID","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"version":"30.0.0.0","webStorageEnabled":true}}
+2016-12-16 01:02:11:195 - info: [debug] [Chromedriver] Changed state to 'online'
+2016-12-16 01:02:11:197 - info: [debug] [MJSONWP] Responding to client with driver.setContext() result: null
+2016-12-16 01:02:11:200 - info: [HTTP] <-- POST /wd/hub/session/0f4982ab-9e39-496b-a64c-c51557790491/context 200 3440 ms - 76 
+2016-12-16 01:02:11:206 - info: [HTTP] --> GET /wd/hub/session/0f4982ab-9e39-496b-a64c-c51557790491/url {}
+2016-12-16 01:02:11:208 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2016-12-16 01:02:11:210 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/0f4982ab-9e39-496b-a64c-c51557790491/url] to [GET http://127.0.0.1:8000/wd/hub/session/6c4621afdbfb073854d0d50a935b036d/url] with body: {}
+2016-12-16 01:02:11:303 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"6c4621afdbfb073854d0d50a935b036d\",\"status\":0,\"value\":\"file:///android_asset/view/ptjy/wtxd/ptmr.html\"}"
+2016-12-16 01:02:11:308 - info: [JSONWP Proxy] Replacing sessionId 6c4621afdbfb073854d0d50a935b036d with 0f4982ab-9e39-496b-a64c-c51557790491
+2016-12-16 01:02:11:312 - info: [HTTP] <-- GET /wd/hub/session/0f4982ab-9e39-496b-a64c-c51557790491/url 200 103 ms - 120 
+2016-12-16 01:13:35:212 - info: [HTTP] --> DELETE /wd/hub/session/0f4982ab-9e39-496b-a64c-c51557790491 {}
+2016-12-16 01:13:35:216 - info: [debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["0f4982ab-9e39-496b-a64c-c51557790491"]
+2016-12-16 01:13:35:220 - info: [debug] [AndroidDriver] Shutting down Android driver
+2016-12-16 01:13:35:223 - info: [debug] [AndroidDriver] Stopping chromedriver for context WEBVIEW_a.b.hybirddemo
+2016-12-16 01:13:35:226 - info: [debug] [Chromedriver] Changed state to 'stopping'
+2016-12-16 01:13:35:228 - info: [debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8000/wd/hub/session/6c4621afdbfb073854d0d50a935b036d] with no body
+2016-12-16 01:13:35:234 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"6c4621afdbfb073854d0d50a935b036d\",\"status\":0,\"value\":null}"
+2016-12-16 01:13:35:240 - info: [debug] [Chromedriver] Changed state to 'stopped'
+2016-12-16 01:13:35:242 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:13:35:311 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:13:35:315 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","force-stop","a.b.hybirddemo"]
+2016-12-16 01:13:36:565 - info: [debug] [ADB] Pressing the HOME button
+2016-12-16 01:13:36:566 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:13:36:627 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:13:36:634 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","input","keyevent",3]
+2016-12-16 01:13:37:842 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2016-12-16 01:13:37:852 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-12-16 01:13:37:858 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2016-12-16 01:13:37:859 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2016-12-16 01:13:37:863 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2016-12-16 01:13:37:864 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2016-12-16 01:13:37:865 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"OK, shutting down","status":0}
+2016-12-16 01:13:37:865 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2016-12-16 01:13:37:866 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2016-12-16 01:13:37:866 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2016-12-16 01:13:37:866 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2016-12-16 01:13:37:868 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2016-12-16 01:13:37:869 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2016-12-16 01:13:37:869 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2016-12-16 01:13:37:870 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2016-12-16 01:13:37:870 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2016-12-16 01:13:37:870 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2016-12-16 01:13:37:871 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 701.004
+2016-12-16 01:13:37:871 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2016-12-16 01:13:37:872 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2016-12-16 01:13:37:873 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2016-12-16 01:13:37:874 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2016-12-16 01:13:37:874 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2016-12-16 01:13:37:875 - info: [debug] [ADB] Getting all processes with uiautomator
+2016-12-16 01:13:37:875 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:13:37:920 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:13:37:924 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ps"]
+2016-12-16 01:13:37:998 - info: [ADB] No uiautomator process found to kill, continuing...
+2016-12-16 01:13:37:999 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2016-12-16 01:13:38:000 - info: [debug] [ADB] Getting connected devices...
+2016-12-16 01:13:38:048 - info: [debug] [ADB] 1 device(s) connected
+2016-12-16 01:13:38:050 - info: [debug] [ADB] Running 'D:\Softwares\Android\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","force-stop","io.appium.unlock"]
+2016-12-16 01:13:39:186 - info: [debug] [Logcat] Stopping logcat capture
+2016-12-16 01:13:39:190 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2016-12-16 01:13:39:191 - info: [Appium] Removing session 0f4982ab-9e39-496b-a64c-c51557790491 from our master session list
+2016-12-16 01:13:39:192 - info: [debug] [MJSONWP] Received response: null
+2016-12-16 01:13:39:192 - info: [debug] [MJSONWP] But deleting session, so not returning
+2016-12-16 01:13:39:193 - info: [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+2016-12-16 01:13:39:195 - info: [HTTP] <-- DELETE /wd/hub/session/0f4982ab-9e39-496b-a64c-c51557790491 200 3983 ms - 76 
